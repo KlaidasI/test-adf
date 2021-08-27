@@ -1,0 +1,9 @@
+{
+	"name": "test-df-factory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b566150b-5f4b-4d46-9c3b-61e4d90c0cb5",
+		"tenantId": "7c359f6b-9f2f-4042-bf2d-b08ce16c5cc1"
+	}
+}
