@@ -1,0 +1,107 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "Id",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "BusinessId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SiteId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "StartTimeUTC",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "EndTimeUTC",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ConfirmationTimeUTC",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ProducerId",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "HouseNr",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalIncomingCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalCountConfirmed",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalRejectionCount",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalRejectionCountConfirmed",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AverageWeight",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AverageWeightConfirmed",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TotalWeight",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CreatedAtUTC",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "ModifiedAtUTC",
+				"type": "datetime2",
+				"scale": 7
+			},
+			{
+				"name": "FlockSequence",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Flock"
+		}
+	}
+}
