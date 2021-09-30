@@ -10,7 +10,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "source/lintu/2021",
+				"folderPath": {
+					"value": "@concat('source/lintu/',formatDateTime(utcnow(), 'yyyy/MM/dd/hh/mm'))",
+					"type": "Expression"
+				},
 				"fileSystem": "pbc-accounting"
 			},
 			"columnDelimiter": ",",
