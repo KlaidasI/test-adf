@@ -55,7 +55,7 @@
 				]
 			},
 			{
-				"name": "Copy data1_copy1",
+				"name": "Producer",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -95,7 +95,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Flock",
+						"referenceName": "Producer",
 						"type": "DatasetReference"
 					}
 				],
