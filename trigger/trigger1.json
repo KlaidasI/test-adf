@@ -1,6 +1,7 @@
 {
 	"name": "trigger1",
 	"properties": {
+		"description": "test",
 		"annotations": [],
 		"runtimeState": "Started",
 		"pipelines": [
@@ -16,7 +17,7 @@
 			"recurrence": {
 				"frequency": "Minute",
 				"interval": 1,
-				"startTime": "2021-09-30T08:22:00Z",
+				"startTime": "2021-09-29T08:22:00Z",
 				"timeZone": "UTC"
 			}
 		}
