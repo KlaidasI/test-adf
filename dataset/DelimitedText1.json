@@ -2,16 +2,16 @@
 	"name": "DelimitedText1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureStorageLinkedService",
+			"referenceName": "TestAzureDataLakeStorage",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"folderPath": "output",
-				"container": "adftutorial"
+				"type": "AzureBlobFSLocation",
+				"folderPath": "source/lintu/2021",
+				"fileSystem": "pbc-accounting"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
