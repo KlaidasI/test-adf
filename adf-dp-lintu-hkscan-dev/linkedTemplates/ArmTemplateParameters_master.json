@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-dp-lintu-hkscan-dev"
+		},
+		"AzureStorageLinkedService_connectionString": {
+			"value": ""
+		},
+		"CosmosDb1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"TestAzureDataLakeStorage_accountKey": {
+			"value": ""
+		},
+		"TestAzureDataLakeStorage_properties_typeProperties_url": {
+			"value": "https://adlsadatapdpdemo.dfs.core.windows.net"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
