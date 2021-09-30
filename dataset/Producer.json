@@ -1,5 +1,5 @@
 {
-	"name": "SqlServerTable1_copy1",
+	"name": "Producer",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SqlServer1",
